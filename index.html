@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube - Clone2.0</title>
+    <link rel="icon" type="image/x-icon" href="./images/YouTube.png">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Header-Top -->
+    <div class="header">
+      <div class="header-left">
+        <i class="material-icons">menu</i>
+        <a href="index.html" style="text-decoration: none;">
+            <!-- <img
+            src="https://www.seekpng.com/png/full/77-772362_youtube-logo-youtube-logo-png.png"
+            width="100vw"
+            alt=""/> -->
+            <i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i>  
+                      <span class="name">YouTube</span>
+        </a>
+        
+      </div>
+
+      <div class="header_search">
+        <form>
+          <input type="text" placeholder="Search" class="search-bar" />
+          <button class="search-btn">
+            <i class="material-icons">search</i>
+          </button>
+        </form>
+      </div>
+
+      <div class="header_icons">
+        <i class="material-icons">videocam</i>
+        <i class="material-icons">apps</i>
+        <i class="material-icons">notifications</i>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz1XtUXnIVYDakH6dkNLEtuwCFnViVDfTHIQ&usqp=CAU"
+          alt=""
+        />
+      </div>
+      <div class="filters">
+        <button class="filter-options">All</button>
+        <button class="filter-options">Mixes</button>
+        <button class="filter-options">Music</button>
+        <button class="filter-options">Javascript</button>
+        <button class="filter-options">s1mple</button>
+        <button class="filter-options">Computer Science</button>
+        <button class="filter-options">Superhero movies</button>
+        <button class="filter-options">Adobe</button>
+        <button class="filter-options">Editing</button>
+        <button class="filter-options">Visual Effects</button>
+        <button class="filter-options">Documentary</button>
+        <button class="filter-options">Sketches</button>
+      </div>
+      
+    </div>
+    <!-- SideBar - Left-->
+    <div class="mainBody">
+        <div class="sidebar">
+            <div class="sidebar-categories">
+              <div class="sidebar-category">
+                <i class="material-icons">home</i>
+                <span>Home</span>
+              </div>
+              <div class="sidebar-category">
+                <i class="material-icons">local_fire_department</i>
+                <span>Trending</span>
+              </div>
+              <div class="sidebar-category">
+                <i class="material-icons">subscriptions</i>
+                <span>Subscriptions</span>
+              </div>
+            </div>
+            <hr />
+            <div class="sidebar-categories">
+              <div class="sidebar-category">
+                <i class="material-icons">library_add_check</i>
+                <span>Library</span>
+              </div>
+              <div class="sidebar-category">
+                <i class="material-icons">history</i>
+                <span>History</span>
+              </div>
+              <div class="sidebar-category">
+                <i class="material-icons">play_arrow</i>
+                <span>Your Videos</span>
+              </div>
+              <div class="sidebar-category">
+                <i class="material-icons">watch_later</i>
+                <span>Watch Later</span>
+              </div>
+              <div class="sidebar-category">
+                <i class="material-icons">thumb_up</i>
+                <span>Liked Videos</span>
+              </div>
+            </div>
+            <hr />
+          </div>
+      <div class="videos">
+        
+        <h1>Recomended</h1>
+        <div class="videos_container"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>
